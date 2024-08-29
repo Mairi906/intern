@@ -1,0 +1,20 @@
+  #Search{
+    width: 50px;
+    height: 30px;
+    border-color: solid black;
+    outline: none;
+    margin: 4em;
+    border-radius: 10px;
+  }
+  #Search:focus{
+    width: 300px;
+    border-color: royalblue;
+     transition: all 0.3s;
+    
+  }
+  #Search::placeholder{
+    font-weight: 200s;
+  }
+  #Search:focus::placeholder{
+    color: transparent;
+  }

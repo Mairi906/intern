@@ -1,0 +1,38 @@
+.squarecontainer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.square1{
+    height:50px;
+    width: 50px;
+    background-color: red;
+    margin: 1em;
+     
+    animation: rotate 5s infinite alternate;
+}
+.square2{
+    height:50px;
+    width: 50px;
+    background-color: yellow;
+    margin: 1em;
+    animation: rotate 5s  infinite alternate;
+    
+}
+.square3{
+    height:50px;
+    width: 50px;
+    background-color: blue;
+    margin: 1em;
+    animation: rotate 5s infinite alternate;
+}
+@keyframes rotate {
+    from{
+        transform:rotate(0deg);
+    }
+    to {
+        transform: rotate(50deg);
+    }
+}

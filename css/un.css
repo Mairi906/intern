@@ -1,0 +1,37 @@
+
+
+
+
+@keyframes slideAnimation{
+    0%, 25%{
+        opacity: 1;
+    }
+    26%, 100%{
+        opacity: 0;
+    }
+}
+.slide:nth-child(1){
+    animation-delay: 0s;
+}
+.slide:nth-child(2){
+    animation-delay: 3s;
+}
+.slide:nth-child(3){
+    animation-delay: 6s;<img src="stars.jpg" height="320px" style=" margin-left: 490px;">
+}
+.slide:nth-child(4){
+    animation-delay: 9s;
+}
+.welcomingwords {
+    clear: both;
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}<div class="trendy">
+   
+   
+<img src="Braciole (Italian Stuffed Beef Recipe) - CucinaByElena.jpg" height="700px" width="700px">
+<h2> <b> Special dish</h2></b><br> <p>In love with italian dish? or have heard of it reputation?Come give this Braciole a try<br>Healthy, Sane and delicious</p>
+</div>
